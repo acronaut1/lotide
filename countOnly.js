@@ -17,10 +17,12 @@ const countOnly = function (allItems, itemsToCount) {
       } else {
         results[item] = 1;
       }
+      //return results;  
     }
-    return results;
+    
+    //return results;
   }
-
+  return results;
 }
 
 
