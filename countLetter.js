@@ -13,15 +13,15 @@ const countLetters = function (itemsToCount) {
       result[chr] += 1
     } else {
       // playblast-vis. stepper.. 
-      console.log(result);
-      console.log(result[chr] = 1);
+      //console.log(result);
+      //console.log(result[chr] = 1);
+      result[chr] = 1;
     }
   }
+  console.table(result);
   return result;
 };
 
-//const result1 = countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": true, "Agouhanna": false });
-//assertEqual(result1["Jason"], 1);
 
 console.log(countLetters("LHL"));
 console.log(countLetters("Lighthouse"));
