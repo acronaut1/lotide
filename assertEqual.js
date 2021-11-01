@@ -7,6 +7,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
+/*
 // Test Code..
 assertEqual("Lighthouse Labs", "Bootcamp");
 assertEqual(1,1);
@@ -19,6 +20,8 @@ assertEqual("Ontario", "Canada");
 assertEqual(13,13);
 // {compare non-identical numbers}..
 assertEqual(64,33);
+*/
 
+module.exports = assertEqual;
 
 
