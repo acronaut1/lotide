@@ -28,3 +28,5 @@ console.log(countLetters("Lighthouse"));
 console.log(countLetters("Lighthouse Labs"));
 console.log(countLetters("Light house Labs"));
 console.log(countLetters("Agouhanna"));
+
+module.exports = countLetters;

@@ -57,4 +57,4 @@ assertArraysEqual(assertObjectsEqual(cd, dc), true); // => true
 const cd2 = { c: "1", d: ["2", 3, 4] };
 assertArraysEqual(assertObjectsEqual(cd, cd2), true); // => false
 
-
+module.exports = assertObjectsEqual;

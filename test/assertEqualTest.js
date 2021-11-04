@@ -8,9 +8,9 @@ assertEqual("Lighthouse Labs II", "Bootcamp");
 assertEqual(1,1);
 // [Additional Tests]..
 // {compare identical strings}..
-assertEqual("Toronto", "Toronto");
+assertEqual("Florida", "Florida");
 // {compare non-identical strings}..
-assertEqual("Ontario", "Canada");
+assertEqual("Germany", "Canada");
 // {compare identical numbers}..
 assertEqual(13,13);
 // {compare non-identical numbers}..

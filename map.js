@@ -51,4 +51,4 @@ const specimen_R = map(words, word => word.length);
 assertArraysEqual(specimen_R, [ '6', '7', '2', '5', '3']);
 
 
-//module.exports = map;
+module.exports = map;

@@ -9,7 +9,6 @@ const eqArrays = function(arrA, arrB) {
   } 
 };
 
-
 const assertArraysEqual = function (arrA, arrB) {
   for (let i = 0; i < arrA.length && arrB.length; i++) {
     if (arrA[i] !== arrB[i]) {                  
@@ -39,3 +38,5 @@ assertArraysEqual(words, ["hello", "world", "lighthouse"]);
 
 ///*✅*/console.log(without(words, ["lighthouse"])); 
 ///*✅*/console.log(words); 
+
+module.exports = without;

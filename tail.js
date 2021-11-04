@@ -5,7 +5,6 @@ const tail = function(set) {
   return elseSet;
 };
 
-
 /*// Other Scenarios:..
 const words2 = ["Yo Yo"];
 console.log(tail(words2));

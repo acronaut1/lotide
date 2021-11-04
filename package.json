@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@acronaut/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "inspired based of Lodash library - Lotide library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/acronaut1/lotide.git"
   },
-  "author": "",
+  "author": "acronaut1",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/acronaut1/lotide/issues"

@@ -49,3 +49,5 @@ const assertArraysEqual = function (setA, setB) {
   // const results3 = takeUntil(data3, x => x < 0);
   // console.log(results3);
   // console.log('---');  // [JS heap out of memory..]
+
+  module.exports = takeUntil;
